@@ -28,7 +28,7 @@ It includes a simple static method for printing a greeting and serves as a templ
   s.author           = { 'AbdullahRaed97' => 'abdullahraediti@gmail.com' }
   #s.source           = { :git => 'https://github.com/AbdullahRaed97/HelloWorld.git', :tag => s.version.to_s }
   s.source = {
-      :http => 'https://github.com/AbdullahRaed97/HelloWorldPod/releases/download/0.1.0/HelloWorld.xcframework.zip'
+      :http => 'https://github.com/AbdullahRaed97/HelloWorldPod/releases/download/0.1.0/ARHelloWorld.xcframework.zip'
     }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
