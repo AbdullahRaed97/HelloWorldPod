@@ -25,12 +25,17 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AbdullahRaed97' => 'abdullahraediti@gmail.com' }
-  s.source           = { :git => 'https://github.com/AbdullahRaed97/HelloWorld.git', :tag => s.version.to_s }
+  #s.source           = { :git => 'https://github.com/AbdullahRaed97/HelloWorld.git', :tag => s.version.to_s }
+  s.source = {
+      :http => 'https://github.com/AbdullahRaed97/HelloWorldPod/releases/download/0.1.0/HelloWorld.xcframework.zip'
+    }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'HelloWorld/Classes/**/*'
+  s.ios.deployment_target = '12.0'
+  s.platform = :ios, '12.0'
+  s.swift_versions   = ['5.0']
+  s.vendored_frameworks = 'HelloWorld.xcframework'
+  #s.source_files = 'HelloWorld/Classes/**/*'
   
   # s.resource_bundles = {
   #   'HelloWorld' => ['HelloWorld/Assets/*.png']
