@@ -39,6 +39,7 @@ It includes a simple static method for printing a greeting and serves as a templ
   #s.source_files = 'HelloWorld/Classes/**/*'
   
   # s.resource_bundles = {
+  
   #   'HelloWorld' => ['HelloWorld/Assets/*.png']
   # }
 
