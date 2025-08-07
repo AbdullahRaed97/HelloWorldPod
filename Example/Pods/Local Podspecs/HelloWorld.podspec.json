@@ -1,0 +1,22 @@
+{
+  "name": "HelloWorld",
+  "version": "0.1.0",
+  "summary": "A short description of HelloWorld.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AbdullahRaed97/HelloWorld",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AbdullahRaed97": "abdullahraediti@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AbdullahRaed97/HelloWorld.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HelloWorld/Classes/**/*"
+}
